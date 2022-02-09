@@ -3,8 +3,8 @@ cloned in python from: https://github.com/spmallick/learnopencv/tree/master/AgeG
 Requirements: 
 - Download OpenCV from: https://opencv.org/releases/ then setup for Python in your environment.</br>
 
-I followed the following tutorial: https://docs.opencv.org/4.x/d5/de5/tutorial_py_setup_in_windows.html. "Installing OpenCV from prebuilt binaries" did not work for me. Instead I followed the steps to "Build OpenCV from source". This meant I had to download Visual Studio to compile using Cmake. </br>
+I tried followed the following tutorial: https://docs.opencv.org/4.x/d5/de5/tutorial_py_setup_in_windows.html, however, none of these methods worked for me. I am unsure why... when trying "import cv2" in a python shell there was an error that it could not find the package :// </br>
 
-OR ```pip install opencv-python``` (note this is an unofficial pre-built OpenCV package for Python)
+Instead, although "unofficial" this works in an anaconda environment: ```pip install opencv-python```. This also works in downloaded Python environment if I add the module's path to the system paths. You need to make sure the module has an empty ```__ini__.py``` inside.</br>
 
-HAD DIFFICULTIES SETTING UP OPENCV. NEED TO COME BACK TO THIS.
+Going to try again following this guy's comments: https://answers.opencv.org/question/237756/at-my-wits-end-with-opencv-build-from-source-please-help/. 

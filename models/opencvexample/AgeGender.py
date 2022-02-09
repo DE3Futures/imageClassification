@@ -1,3 +1,5 @@
+## PERSONAL NOTE: run this file in an anaconda environment 
+
 # Import required modules
 import cv2 as cv
 import math
