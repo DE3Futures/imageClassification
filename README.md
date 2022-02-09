@@ -3,6 +3,17 @@ imageClassification
 
 A short description of the project.
 
+--------
+
+Key Methods
+------------
+
+The following tutorials were used for initial understanding:
+
+- OpenCV tutorial: https://learnopencv.com/age-gender-classification-using-opencv-deep-learning-c-python/
+- TensorFlow tutorial: https://thecleverprogrammer.com/2020/11/25/gender-classification-with-python/
+
+--------
 Project Organization
 ------------
 
