@@ -1,7 +1,9 @@
 imageClassification
 ==============================
 
-A short description of the project.
+Image classification was explored to see if this should be added to the prototype. The file ```imageClassification/blob/main/models/opencvexample/AgeGender.py``` can be run to predict the age and gender of the participant.
+
+This was not included in the final prototype since it was decided that age and gender are not needed when giving advice to the user.
 
 --------
 
